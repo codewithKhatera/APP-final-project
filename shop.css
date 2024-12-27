@@ -1,0 +1,202 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(59, 45, 2);
+    background-color: white;
+}
+.logo-container {
+   position: absolute;
+   top: 1%;
+   left: 25%;
+}
+nav img {
+    height: 40px;
+    width: auto;
+}
+nav {
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+    padding: 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #fbc9fd;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+nav a:hover {
+    color: #7d5506;
+}
+main {
+    width: 800px;
+    text-align: center;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;        
+    padding-right: 10px;
+    box-sizing: border-box;
+    
+}
+.product-container {
+    width: 100%;
+    position: relative;
+    background-image: url('https://media.istockphoto.com/id/594055974/photo/beauty-women-portrait.jpg?s=612x612&w=0&k=20&c=rYNZ8HNUn3tC5SfD79sOA1jE3_qSADWY0CS60VbKa10=');
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    color: #ffffff;
+    margin-right: auto;
+    padding-left: 20%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.product-container .row-1 {
+    font-size: 35px;
+    margin: 0;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    text-align: right;
+    margin-bottom: 100px;
+    line-height: 1.3;
+    display: inline;
+}
+nav2 {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #fbc9fd;
+    display: inline;
+    font-size: 10px;
+    margin-bottom: 20px;
+
+}
+nav2 a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+nav2 a:hover {
+    color: #7d5506;
+}
+#summer {
+    color: #7d5506;
+}
+h2 {
+    font-size: 28px;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+.flex-box {
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+ .product-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1;
+
+} 
+
+.product p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #493904;
+}
+
+ .product-image img {
+    width: 100%;
+    height: 200px;
+    opacity: 1;
+    padding-bottom: 5px;
+
+ }
+ .product-image:hover img {
+    opacity: 0.9;
+ }
+
+ .footer {
+    background-color: #584505;
+    color: #ffffff;
+    text-align: left;
+    padding: 20px 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    line-height: 1.3;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #fbc9fd;
+}
+
